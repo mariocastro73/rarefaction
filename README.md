@@ -1,3 +1,11 @@
+Open `rarefactionTCR.Rproj` or run directly `main.R`
+
+If you want to run all the analysis from scratch, remove all the `*.rda` files (or better, move them elsewhere).
+
+Output:
+- PDFs with the rarefaction-extrapolation curves.
+- Statistical reports in Markdown format (use pandoc, https://cran.r-project.org/web/packages/pandoc/index.html) to convert them to Word or any other popular format.
+
 ```R
 > sessionInfo()
 R version 4.4.2 (2024-10-31)
